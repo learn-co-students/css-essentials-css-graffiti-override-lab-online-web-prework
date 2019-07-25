@@ -1,1 +1,24 @@
 /* write your override styles here */
+#wall .tag-1 {
+  display: none;
+  background: blue;
+}
+
+div#wall #tag-3:hover {
+  background: white;
+  opacity: 0.2;
+}
+
+div#wall .parent #tag-4 {
+  display:none;
+}
+
+div#wall .parent #tag-4:hover {
+  background: blue;
+  opacity: 0.2;
+}
+
+div#wall #tag-2:hover {
+  background: gray;
+  opacity: 0.2;
+}
