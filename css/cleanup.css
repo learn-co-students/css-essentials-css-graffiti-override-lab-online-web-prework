@@ -1,1 +1,38 @@
 /* write your override styles here */
+#wall .tag-1 {
+  display: none;
+}
+
+
+.parent {
+  background-color: red
+}
+
+#tag-2 {
+  width: 500px;
+  height:100px;
+}
+
+
+#tag-3 {
+  position: relative;
+}
+
+#tag-4 {
+  position: fixed;
+}
+
+#tag-1 {
+  z-index: 10;
+}
+
+html {
+  font-family: Times New Roman;
+}
+
+#tag-3, #tag-1 {
+  position: fixed;
+}
+
+
+
