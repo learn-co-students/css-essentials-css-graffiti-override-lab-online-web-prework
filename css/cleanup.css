@@ -1,1 +1,27 @@
-/* write your override styles here */
+#wall .tag-1 {  /* Stating that it is specifically the .tag-1 in the #wall class */
+  display: none;
+}
+
+body #wall #tag-2 { /* Adding that it is also within the body */
+  display: none;
+}
+
+div#wall div#tag-3.slick { /* adding that the #tag-3 id is also within a div */
+  display: none;
+}
+
+#wall .parent #tag-4 { /* adding that it is also within the parent class div */
+  display: none;
+}
+
+div#wall div.parent #tag-5.slick { /* added that the .parent class is part of a div! */
+  display: none;
+}
+
+div#wall div.parent div+div:last-child div#tag-6 { /* added that the last-child is a sibling of another div */
+  display: none;
+}
+
+body div#wall div.parent+div.parent div > #tag-7.slick { /* added that the parent is a sibling of the parent containing the grafitti */
+  display: none;
+}
