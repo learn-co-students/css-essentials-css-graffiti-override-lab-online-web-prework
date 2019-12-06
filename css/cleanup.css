@@ -1,1 +1,11 @@
 /* write your override styles here */
+#wall .tag-1 {display: none; border: 1px solid black;}
+
+div#wall div#tag-2 {background-color: blue; opacity: 0.5; border: 1px solid black;}
+
+div#wall div#tag-3.slick {display: none; border: 1px solid black;}
+
+#wall .parent #tag-4 {z-index: 1; border: 1px solid black;}
+
+div#wall div.parent div#tag-5.slick {opacity: 0.5; border: 1px solid black;}
+
