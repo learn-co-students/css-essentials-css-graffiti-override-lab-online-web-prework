@@ -5,5 +5,13 @@
 }
 
 #tag-2 {
+  display: none;
+}
+
+.slick .wicked {
+  display: none;
+}
+
+#wall #tag-2 {
   /*display: none;*/
 }
