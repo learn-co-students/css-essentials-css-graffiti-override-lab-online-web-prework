@@ -1,1 +1,32 @@
 /* write your override styles here */
+#wall .tag-1 {
+  display: none;
+}
+div#wall #tag-2 {
+  display: none;
+}
+#wall #tag-3.slick.wicked {
+  display: none;
+}
+.parent {
+  display: none;
+}
+body {
+  background: pink;
+}
+h1 {
+  color: blue;
+  font-size: 3em;
+}
+h2 {
+  color: green;
+  font-weight: normal;
+  font-style: italic;
+}
+.completed {
+  font-size: 12px;
+}
+#tasks .completed {
+  background: #ccc;
+  text-decoration: underline;
+}
